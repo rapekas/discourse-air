@@ -604,6 +604,11 @@ p>img:not(.emoji){
     padding: 0.15em 0.6em;
 }
 
+// Remove category links
+.menu-panel .category-links {
+	display: none;
+}
+
 // Fix white table header
 .md-table table thead tr {
 	background-color: revert;
