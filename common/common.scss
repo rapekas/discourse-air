@@ -630,3 +630,19 @@ $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
   background: url($url_of_christmas_hat_asset) no-repeat center;
   background-size: contain;
 }
+
+// Hide topic buttons
+// Defer
+#topic-footer-button-defer {
+	display: none;
+}
+
+// Flag
+#topic-footer-button-flag {
+	display: none;
+}
+
+// Bookmark
+#topic-footer-button-bookmark {
+	display: none;
+}
