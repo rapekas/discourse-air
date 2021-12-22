@@ -64,6 +64,10 @@
   display: none;
 }
 
+.navigation-categories .navigation-container, .categories-list .navigation-container {
+    border-bottom: none;
+}
+
 .topic-list th, .topic-list td {
   padding: 15px 5px;
 }
