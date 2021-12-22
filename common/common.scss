@@ -659,3 +659,18 @@ $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
 .d-header-icons .icon {
 	padding: 0;
 }
+
+// Topic chat btn
+.topic-title-chat-icon {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+    &:hover {
+          border: 1px dotted rgba(var(--primary-rgb),0.25);
+          opacity: 1;
+          }
+        }
+}
