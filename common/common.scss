@@ -68,6 +68,10 @@
     border-bottom: none;
 }
 
+.navigation-categories .list-container, .categories-list .list-container {
+	padding-top: 0px;
+}
+
 .topic-list th, .topic-list td {
   padding: 15px 5px;
 }
