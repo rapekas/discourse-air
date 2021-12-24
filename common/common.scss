@@ -251,11 +251,12 @@ html body #main-outlet {
     min-height: 500px;
   }
   @media screen and (max-width: 700px) {
-    padding: 1.5em;
+    // Fix chat
+    padding: 0em;
     margin-top: 0;
   }
-  padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
+  //padding-bottom: 5% !important; //overriding inline style
+  //@include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
