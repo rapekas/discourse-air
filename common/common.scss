@@ -265,6 +265,11 @@ html body #main-outlet {
   }
 }
 
+// Fix chat full
+.has-full-page-chat:not(.discourse-sidebar) #main-outlet {
+    padding: 0em 0em;
+}
+
 .nav-pills > li a.active,
 .nav-pills > li > a {
   border-radius: 0.5em;
