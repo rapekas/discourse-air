@@ -68,11 +68,6 @@
     border-bottom: none;
 }
 
-// Category box component padding-top
-.navigation-categories .list-container, .categories-list .list-container {
-	padding-top: 0px;
-}
-
 .topic-list th, .topic-list td {
   padding: 15px 5px;
 }
@@ -680,3 +675,8 @@ $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
 //         opacity: 1;
 //     }
 // }
+
+// Category box component padding-top
+.navigation-categories .list-container, .categories-list .list-container {
+	padding-top: 0px;
+}
