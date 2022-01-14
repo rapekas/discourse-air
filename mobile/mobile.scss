@@ -110,3 +110,12 @@ ol.category-breadcrumb {
   border-radius: 0.25em;
   margin-top: 1em;
 }
+
+// List view remove author avatar, modify width
+.topic-list .right {
+	margin-left: 0px;
+}
+
+img.avatar {
+	display: none;
+}
