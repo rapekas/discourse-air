@@ -119,3 +119,8 @@ ol.category-breadcrumb {
 img.avatar {
 	display: none;
 }
+
+// Fix text width
+.topic-list .topic-excerpt {
+	width: 110%;
+}
