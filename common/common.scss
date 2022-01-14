@@ -680,3 +680,25 @@ p>img:not(.emoji){
 .navigation-categories .list-container, .categories-list .list-container {
 	padding-top: 28px;
 }
+
+// List view remove author avatar, modify width
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+	width: 1%;
+}
+
+.full-width .contents .topic-list .topic-list-item .posters a:first-of-type .avatar {
+	display: none;
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
+	width: 90%; // 80 if answers column enabled below
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
+	width: 5%;
+	display: none; // temporary disabled
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.age {
+	width: 8%; // original 20
+}
